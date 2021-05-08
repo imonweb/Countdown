@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body,
+h1
+ {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 0 3rem 5rem 3rem;
+}
+
+.coming-soon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: column;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.img-waiting {
+  width: 30%;
+  height: 50vh;
+  margin-top: 2rem;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
+}
+
+ 
